@@ -90,7 +90,7 @@ void AudioProcessingGuiApp::MusicControlWindow()
 	ui::SliderFloat("Main Volume", &sVolume, 0, 1);
 	ui::SliderFloat("Play Rate", &sPlayRate, 0, 3);
 	ui::SliderFloat("Pan", &sPan, -1, 1);
-	if (ui::CollapsingHeader("Three Band Equilizer"))
+	if (ui::CollapsingHeader("Three Band Equalizer"))
 	{
 		threeEqBypass = false;
 		ui::SliderFloat("Low Volume", &sLowVol, 0.001, 1);
