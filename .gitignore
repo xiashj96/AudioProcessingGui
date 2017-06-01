@@ -1,3 +1,8 @@
+# project-generated folders
+assets
+resources
+vc2015
+
 # Compiled Object files
 *.slo
 *.lo
